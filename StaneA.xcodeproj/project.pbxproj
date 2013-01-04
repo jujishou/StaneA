@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA5868921696C0F900A87040 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5868911696C0F900A87040 /* UIKit.framework */; };
+		CA5868941696C0F900A87040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5868931696C0F900A87040 /* Foundation.framework */; };
+		CA5868961696C0F900A87040 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5868951696C0F900A87040 /* CoreGraphics.framework */; };
+		CA5868981696C0F900A87040 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5868971696C0F900A87040 /* CoreData.framework */; };
+		CA58689E1696C0F900A87040 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA58689C1696C0F900A87040 /* InfoPlist.strings */; };
+		CA5868A01696C0F900A87040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA58689F1696C0F900A87040 /* main.m */; };
+		CA5868A41696C0F900A87040 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5868A31696C0F900A87040 /* AppDelegate.m */; };
+		CA5868A61696C0F900A87040 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5868A51696C0F900A87040 /* Default.png */; };
+		CA5868A81696C0F900A87040 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5868A71696C0F900A87040 /* Default@2x.png */; };
+		CA5868AA1696C0F900A87040 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA5868A91696C0F900A87040 /* Default-568h@2x.png */; };
+		CA5868AD1696C0F900A87040 /* StaneA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA5868AB1696C0F900A87040 /* StaneA.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA58688D1696C0F900A87040 /* StaneA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaneA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5868911696C0F900A87040 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA5868931696C0F900A87040 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA5868951696C0F900A87040 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA5868971696C0F900A87040 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA58689B1696C0F900A87040 /* StaneA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaneA-Info.plist"; sourceTree = "<group>"; };
+		CA58689D1696C0F900A87040 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA58689F1696C0F900A87040 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA5868A11696C0F900A87040 /* StaneA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StaneA-Prefix.pch"; sourceTree = "<group>"; };
+		CA5868A21696C0F900A87040 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA5868A31696C0F900A87040 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA5868A51696C0F900A87040 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA5868A71696C0F900A87040 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA5868A91696C0F900A87040 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA5868AC1696C0F900A87040 /* StaneA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StaneA.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA58688A1696C0F900A87040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5868921696C0F900A87040 /* UIKit.framework in Frameworks */,
+				CA5868941696C0F900A87040 /* Foundation.framework in Frameworks */,
+				CA5868961696C0F900A87040 /* CoreGraphics.framework in Frameworks */,
+				CA5868981696C0F900A87040 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA5868821696C0F900A87040 = {
+			isa = PBXGroup;
+			children = (
+				CA5868991696C0F900A87040 /* StaneA */,
+				CA5868901696C0F900A87040 /* Frameworks */,
+				CA58688E1696C0F900A87040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA58688E1696C0F900A87040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA58688D1696C0F900A87040 /* StaneA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA5868901696C0F900A87040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA5868911696C0F900A87040 /* UIKit.framework */,
+				CA5868931696C0F900A87040 /* Foundation.framework */,
+				CA5868951696C0F900A87040 /* CoreGraphics.framework */,
+				CA5868971696C0F900A87040 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA5868991696C0F900A87040 /* StaneA */ = {
+			isa = PBXGroup;
+			children = (
+				CA5868A21696C0F900A87040 /* AppDelegate.h */,
+				CA5868A31696C0F900A87040 /* AppDelegate.m */,
+				CA5868AB1696C0F900A87040 /* StaneA.xcdatamodeld */,
+				CA58689A1696C0F900A87040 /* Supporting Files */,
+			);
+			path = StaneA;
+			sourceTree = "<group>";
+		};
+		CA58689A1696C0F900A87040 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA58689B1696C0F900A87040 /* StaneA-Info.plist */,
+				CA58689C1696C0F900A87040 /* InfoPlist.strings */,
+				CA58689F1696C0F900A87040 /* main.m */,
+				CA5868A11696C0F900A87040 /* StaneA-Prefix.pch */,
+				CA5868A51696C0F900A87040 /* Default.png */,
+				CA5868A71696C0F900A87040 /* Default@2x.png */,
+				CA5868A91696C0F900A87040 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA58688C1696C0F900A87040 /* StaneA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5868B01696C0F900A87040 /* Build configuration list for PBXNativeTarget "StaneA" */;
+			buildPhases = (
+				CA5868891696C0F900A87040 /* Sources */,
+				CA58688A1696C0F900A87040 /* Frameworks */,
+				CA58688B1696C0F900A87040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaneA;
+			productName = StaneA;
+			productReference = CA58688D1696C0F900A87040 /* StaneA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA5868841696C0F900A87040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = stane;
+			};
+			buildConfigurationList = CA5868871696C0F900A87040 /* Build configuration list for PBXProject "StaneA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA5868821696C0F900A87040;
+			productRefGroup = CA58688E1696C0F900A87040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA58688C1696C0F900A87040 /* StaneA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA58688B1696C0F900A87040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA58689E1696C0F900A87040 /* InfoPlist.strings in Resources */,
+				CA5868A61696C0F900A87040 /* Default.png in Resources */,
+				CA5868A81696C0F900A87040 /* Default@2x.png in Resources */,
+				CA5868AA1696C0F900A87040 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA5868891696C0F900A87040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5868A01696C0F900A87040 /* main.m in Sources */,
+				CA5868A41696C0F900A87040 /* AppDelegate.m in Sources */,
+				CA5868AD1696C0F900A87040 /* StaneA.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA58689C1696C0F900A87040 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA58689D1696C0F900A87040 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA5868AE1696C0F900A87040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA5868AF1696C0F900A87040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA5868B11696C0F900A87040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaneA/StaneA-Prefix.pch";
+				INFOPLIST_FILE = "StaneA/StaneA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA5868B21696C0F900A87040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaneA/StaneA-Prefix.pch";
+				INFOPLIST_FILE = "StaneA/StaneA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5868871696C0F900A87040 /* Build configuration list for PBXProject "StaneA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5868AE1696C0F900A87040 /* Debug */,
+				CA5868AF1696C0F900A87040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5868B01696C0F900A87040 /* Build configuration list for PBXNativeTarget "StaneA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5868B11696C0F900A87040 /* Debug */,
+				CA5868B21696C0F900A87040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA5868AB1696C0F900A87040 /* StaneA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA5868AC1696C0F900A87040 /* StaneA.xcdatamodel */,
+			);
+			currentVersion = CA5868AC1696C0F900A87040 /* StaneA.xcdatamodel */;
+			path = StaneA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA5868841696C0F900A87040 /* Project object */;
+}
